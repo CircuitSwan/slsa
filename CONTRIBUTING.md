@@ -95,6 +95,8 @@ maintainer will update if needed.
 | `style` | A user-visible style or layout change. No content changes. | 0h | 1 |
 | `impl` | A user-invisible change, such as editing a README or the repo configuration. | 0h | 1 |
 
+The above are loosely enforced during DRAFT periods and up to maintainer discretion. The above are strictly enforced during CANDIDATE periods.
+
 Note: PR authors with write access to the repo count as second or third
 approvers for their own PRs. For example, if the author of a PR with the
 `content` tag has write access to the repo, then the PR only requires
